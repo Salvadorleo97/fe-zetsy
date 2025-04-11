@@ -5,16 +5,67 @@
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background: #f4eae9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
+
+
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+	background: #ffffff;
+	padding: 5px 45px 20px;
 }
 
+
 /* Write all remaining styles here */
+
+h1 {
+	color: #9baea9;
+	height: 50px;
+	font-size: 75px;
+	font-family: "Nanum Myeongjo", serif;
+	margin-top: -1px;
+}
+
+h2 {
+	color: #6c7d7e;
+	font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-img {
+	border: 5px solid #9cada8;
+
+}
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 20px 45px 20px;
+
+}
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 1px 45px 20px;
+	text-align: right;
+}
+
+.footer-img {
+
+	border: 5px solid #cdcdcb;
+}
+
+.footer-img:hover {
+	transition: 0.2s ease, padding 0.8s linear;
+	border: 5px solid #6c7d7e;
+}
